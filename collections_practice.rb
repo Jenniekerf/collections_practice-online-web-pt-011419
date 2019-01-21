@@ -6,3 +6,7 @@ def sort_array_desc(array)
   new_array = array.sort 
   new_array.reverse!
 end
+
+def sort_array_char_count(array)
+  
+end
