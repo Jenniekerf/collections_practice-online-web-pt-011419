@@ -38,6 +38,6 @@ end
 end
 
 def add_s(array)
-  array.each |word| word << s
+  array.each do |word| word << s
 end
 end
