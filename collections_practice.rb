@@ -33,6 +33,8 @@ end
 end
 
 def sum_array(array)
-  array.each do |i| i + i 
+  new_array = []
+  array.each do |i| new_array = i + i 
 end
+new_array
 end
