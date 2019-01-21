@@ -36,3 +36,8 @@ def sum_array(array)
   array.inject(0) do |num1, num2| num1 + num2
 end
 end
+
+def add_s(array)
+  array.each |word| word << s
+end
+end
